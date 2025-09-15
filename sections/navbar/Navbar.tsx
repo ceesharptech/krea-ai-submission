@@ -6,7 +6,7 @@ import { IoLogoFigma } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className="flex h-16 px-6 pt-3 jusitfy-center items-center">
+    <nav className="flex h-16 px-6 pt-3 jusitfy-center items-center mb-20">
       <div className="mx-auto w-full flex justify-between items-center">
         <div className="flex gap-7">
           <IoLogoFigma className="w-6 h-6 text-foreground" />

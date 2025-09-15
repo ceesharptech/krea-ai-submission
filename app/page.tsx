@@ -1,3 +1,5 @@
+import Gallery from "@/sections/gallery/Gallery";
+import GenerateTools from "@/sections/generate/GenerateTools";
 import HeroCarousel from "@/sections/hero/HeroCarousel";
 import Navbar from "@/sections/navbar/Navbar";
 import { IoWarning } from "react-icons/io5";
@@ -8,6 +10,8 @@ const page = () => {
       <div className="hidden h-screen lg:flex flex-col space-y-10">
         <Navbar />
         <HeroCarousel />
+        <GenerateTools />
+        <Gallery />
       </div>
 
       <div className="mobile-checker lg:hidden h-screen flex flex-col items-center justify-center gap-3">
