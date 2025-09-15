@@ -12,7 +12,9 @@ const Navbar = () => {
           <IoLogoFigma className="w-6 h-6 text-foreground" />
           <div className="username-wrapper flex jusitfy-between items-center gap-2">
             <div className="bg-gradient-to-r from-pink-200 to-blue-300 h-6 w-6 rounded-lg"></div>
-            <span className="font-normal text-sm">benevolentminibot</span>
+            <span className="font-normal text-neutral-500 text-sm">
+              benevolentminibot
+            </span>
             <IoIosArrowDown className="w-4 h-4" />
           </div>
         </div>
